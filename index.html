@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>summerfish 盛夏那隻魚</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>SummerFish 盛夏那隻魚</h1>
+    <p>一間很奇怪的小店，裡面的東西，就像一隻被吃掉的小魚，骨頭留下來當紀念品。</p>
+  </header>
+
+  <main>
+    <section class="products">
+      <article class="product-card" data-id="1" data-name="魚魚貼紙" data-price="300">
+        <img src="picture/P1000013.JPG" alt="商品1" />
+        <h2>魚魚貼紙</h2>
+        <p>商品簡介：照片隨便放</p>
+        <p class="price">$300</p>
+        <button class="add-to-cart-btn">加入購物車</button>
+      </article>
+
+      <article class="product-card" data-id="2" data-name="哩哩摳摳" data-price="500">
+        <img src="picture\P1000005.JPG" alt="商品2" />
+        <h2>哩哩摳摳</h2>
+        <p>商品簡介：還沒想好啦</p>
+        <p class="price">$500</p>
+        <button class="add-to-cart-btn">加入購物車</button>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 0801 SummerFish 盛夏那隻魚</p>
+  </footer>
+
+<script src="script.js"></script>
+  <section id="cart-section">
+  <h2>購物車</h2>
+  <ul id="cart-items"></ul>
+  <p>總計：$<span id="cart-total">0</span></p>
+</section>
+</body>
+</html>
